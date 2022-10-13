@@ -69,39 +69,66 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## Packages Used
+# Packages Used
 
-##### Client
+## Client
 
 react-router-dom
+
 react-icons
+
 firebase
+
 framer-motion
+
 axios
+
 tailwindcss
+
 postcss
+
 autoprefixer
+
 cors
+
 moment
+
 node-sass
+
 react-h5-audio-player
+
 sass
+
 use-mui
+
 react-hook
+
 mui
+
 @mui/material
+
 @emotion/react
+
 @emotion/styled
+
 @mui/icons-material
+
 react-slideshow-image
+
 react-redux
 
-##### Server
+## Server
 
 mongoose
+
 dotenv
+
 firebase
+
 firebase-admin
+
 framer-motion
+
 axios
+
 cors
