@@ -1,0 +1,442 @@
+.container {
+  .header {
+    width: 100%;
+    height: 36rem;
+    position: relative;
+    overflow: hidden;
+    background: rgb(255, 179, 0);
+
+    .img1 {
+      width: 85%;
+      height: 35rem;
+      // opacity: 0.5;
+    }
+  }
+  .header:after {
+    content: "";
+    position: absolute;
+    top: 93%;
+    left: 0;
+    height: 100%;
+    width: 170%;
+    background: rgb(255, 179, 0);
+    transform: rotate(-70deg);
+  }
+
+  .shape {
+    border-top: 1rem solid white;
+    border-left: 0rem solid transparent;
+    border-right: 1.5rem solid transparent;
+    width: 5rem;
+    position: absolute;
+    margin-top: -1rem;
+  }
+  .shapes {
+    display: flex;
+    margin-left: 7rem;
+    gap: 5rem;
+    .shape1 {
+      .test2 {
+        border-top: 1rem solid white;
+        border-left: 1.5rem solid transparent;
+        border-right: 1.5rem solid transparent;
+        position: absolute;
+        margin-top: -1rem;
+      }
+      .test3 {
+        border-bottom: 1rem solid white;
+        border-left: 1.5rem solid transparent;
+        border-right: 1.5rem solid transparent;
+        position: absolute;
+        margin-top: -1rem;
+        margin-left: -1.45rem;
+      }
+    }
+  }
+
+  .contentHeader {
+    .title {
+      margin: -32rem 0 0 7rem;
+      position: absolute;
+
+      p {
+        font-size: 2rem;
+        font-weight: 700;
+        color: rgb(255, 200, 0);
+        margin-bottom: -0.5rem;
+      }
+      span {
+        color: rgb(225, 225, 225);
+        font-size: 1.2rem;
+        font-weight: 200;
+      }
+
+      .playMusic {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 15rem;
+        .icon1 {
+          width: 2rem;
+          height: 2rem;
+          background-color: rgb(255, 200, 0);
+          border-width: 2px;
+          border-color: rgb(255, 200, 0);
+          border-radius: 30rem;
+          margin-right: 1rem;
+          transition: all 0.5s;
+          svg {
+            margin: 0.2rem;
+            font-size: 1.5rem;
+          }
+        }
+        .icon1:hover {
+          border-style: solid;
+          border-width: 2px;
+          border-color: white;
+          transition: all 0.5s;
+          background-color: rgba(0, 0, 0, 0);
+          transition: all 0.5s;
+          transform: rotateY(360deg);
+          cursor: pointer;
+          svg {
+            color: rgb(255, 200, 0);
+            font-size: 1.5rem;
+          }
+        }
+        h4 {
+          color: white;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+      }
+      button {
+        margin-left: 22rem;
+        .textIcon {
+          display: flex;
+          align-items: center;
+          color: rgb(255, 200, 0);
+          gap: 0.5rem;
+          border-style: solid;
+          border-width: 2px;
+          border-color: rgb(255, 200, 0);
+          padding: 0.5rem;
+          transition: all 0.5s;
+          .text {
+            font-size: 1rem;
+            margin: 0;
+            font-weight: 600;
+          }
+        }
+        .textIcon:hover {
+          transition: all 0.5s;
+          border-style: solid;
+          border-width: 2px;
+          border-color: white;
+        }
+      }
+    }
+    .modal {
+      position: absolute;
+      background-color: rgb(53, 51, 51);
+      border-radius: 5px;
+      width: 19rem;
+      height: 13rem;
+      top: 17rem;
+      right: 9rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height: 2.5rem;
+      .iconDownload {
+        font-size: 3rem;
+        color: white;
+        cursor: pointer;
+      }
+      .iconDownload:hover {
+        color: rgb(255, 179, 0);
+      }
+      .iconTextTitle {
+        color: rgb(255, 179, 0);
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
+      .iconTextContent {
+        color: rgb(207, 207, 207);
+        margin-top: -1rem;
+      }
+
+      .appDownload {
+        display: flex;
+        gap: 2rem;
+        .googlePlay {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+        }
+        .googlePlay img {
+          width: 2rem;
+          height: 2rem;
+        }
+        .appStore {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+        }
+        .appStore img {
+          width: 2.5rem;
+          height: 2.5rem;
+        }
+      }
+      .appDownload div .appText {
+        color: white;
+      }
+    }
+  }
+
+  .body {
+    width: 100%;
+    height: 35rem;
+    background-color: rgb(51, 49, 49);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .hr {
+      background-color: rgb(255, 217, 0);
+      width: 5rem;
+      height: 3px;
+      border-radius: 10px;
+      margin: 1rem 0 2rem 0;
+    }
+
+    .buttonBody {
+      display: flex;
+      flex-direction: column;
+      .button {
+        position: relative;
+        color: rgb(255, 204, 0);
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 1rem;
+        width: 15rem;
+        height: 8rem;
+        background-color: rgba(32, 32, 32, 0.718);
+        // border-color: white;
+        // border-width: 2px;
+        transition: all 1s;
+        &:after,
+        &:before {
+          content: " ";
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          border: 2px solid #fff;
+          transition: all 1s;
+        }
+        &:after {
+          top: -1px;
+          left: -1px;
+          border-top: 2px solid rgb(255, 162, 0);
+          border-left: 2px solid rgb(255, 162, 0);
+        }
+        &:before {
+          bottom: -1px;
+          right: -1px;
+          border-bottom: 2px solid rgb(255, 162, 0);
+          border-right: 2px solid rgb(255, 162, 0);
+        }
+        &:hover {
+          border-top-right-radius: 0px;
+          border-bottom-left-radius: 0px;
+
+          &:before,
+          &:after {
+            width: 105%;
+            height: 110%;
+            // border-color:white;
+          }
+        }
+      }
+      .button:hover {
+        transition: all 1s;
+        background-color: rgb(51, 49, 49);
+      }
+    }
+  }
+  .body p {
+    color: rgb(255, 179, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    // margin-top: 1rem;
+  }
+  .body span {
+    color: rgb(207, 207, 207);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .footer {
+    width: 100%;
+    height: 47rem;
+    background-image: url(../assets/img/background2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    .lopphu {
+      top: 76.05rem;
+      position: absolute;
+      width: 100%;
+      height: 47rem;
+      background-color: black;
+      opacity: 0.6;
+    }
+    .title {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .icons {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        .icon {
+          margin: 0 5rem 3rem 5rem;
+          padding: 1rem;
+          cursor: pointer;
+          font-size: 2rem;
+          // border: 2px solid rgb(253, 173, 0);
+          border-radius: 5rem;
+          transition: 0.5s;
+        }
+        .icon:hover {
+          color: #ffc400;
+          box-shadow: 0 0 2rem #ffb710;
+        }
+      }
+      .contacts {
+        display: flex;
+        flex-direction: row;
+        gap: 15rem;
+
+        .contact {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          .detail {
+            padding: 1rem;
+            cursor: pointer;
+            font-size: 2rem;
+            border: 2px solid rgb(253, 173, 0);
+            border-radius: 5rem;
+            transition: all 0.5s;
+
+            .iconPhone {
+              font-size: 1.5rem;
+              margin: 0.3rem;
+            }
+          }
+          .detail:hover {
+            border: 2px solid white;
+            color: #ffb710;
+            transition: all 0.5s;
+          }
+        }
+      }
+      .contact p {
+        color: rgb(249, 188, 3);
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-left: 5rem;
+        position: absolute;
+      }
+    }
+    .content {
+      position: relative;
+      font-size: 2rem;
+      font-weight: 700;
+      color: rgb(255, 196, 0);
+      margin: 2rem 0;
+    }
+    .form {
+      position: relative;
+      .address {
+        display: flex;
+        gap: 2rem;
+      }
+      .address input {
+        border: none;
+        padding-left: 1rem;
+        width: 20rem;
+        height: 2.5rem;
+        font-weight: 700;
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: 0px 0px 5px rgb(255, 200, 0);
+        -moz-box-shadow: 0px 0px 5px rgb(255, 200, 0);
+        -webkit-box-shadow: 0px 0px 5px rgb(255, 200, 0);
+        -o-box-shadow: 0px 0px 5px rgb(255, 200, 0);
+        -ms-box-shadow: 0px 0px 5px rgb(255, 200, 0);
+      }
+
+      input:focus {
+        // outline: none;
+        color: rgb(251, 205, 0);
+      }
+
+      .message {
+        margin-top: 2rem;
+      }
+      .message textarea {
+        border: none;
+        padding: 1rem;
+        width: 100%;
+        height: 10rem;
+        font-weight: 700;
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: 0px 0px 5px rgb(255, 200, 0);
+        -moz-box-shadow: 0px 0px 5px rgb(255, 200, 0);
+        -webkit-box-shadow: 0px 0px 5px rgb(255, 200, 0);
+        -o-box-shadow: 0px 0px 5px rgb(255, 200, 0);
+        -ms-box-shadow: 0px 0px 5px rgb(255, 200, 0);
+      }
+
+      textarea:focus {
+        // outline: none;
+        color: rgb(251, 205, 0);
+        // background-color: blue;
+      }
+    }
+    button {
+      margin: 2rem 0 0 17.5rem;
+      .textIcon {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(255, 200, 0);
+        padding: 0.5rem;
+        transition: all 0.5s;
+        .text {
+          font-size: 1rem;
+          margin: 0;
+          font-weight: 600;
+        }
+      }
+      .textIcon:hover {
+        transition: all 0.5s;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        color: rgb(255, 200, 0);
+      }
+    }
+  }
+}

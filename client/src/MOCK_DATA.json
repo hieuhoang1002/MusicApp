@@ -1,0 +1,396 @@
+[
+  {
+    "id": 1,
+    "title": "K-Pop Mix",
+    "description": "EXO, BTS, BlackPink and more",
+    "image": "https://seed-mix-image.spotifycdn.com/v6/img/k_pop/3Lz3vEN23Fw0hIelrYEzUD/en/default"
+  },
+  {
+    "id": 2,
+    "title": "Mandopop Mix",
+    "description": "Hebe Tien, AMEE, Hoang Ton and more",
+    "image": "https://seed-mix-image.spotifycdn.com/v6/img/mandopop/14bJhryXGk6H6qlGzwj3W5/en/default"
+  },
+  {
+    "id": 3,
+    "title": "Orange Mix",
+    "description": "AMEE, Lou Hoang, Orange and more",
+    "image": "https://seed-mix-image.spotifycdn.com/v6/img/artist/5lAfakPZgxFKgiJD6xAF1G/en/default"
+  },
+  {
+    "id": 4,
+    "title": "90s Mix",
+    "description": "Britney Spears, Backstreet Bots, Dr.Dre and more",
+    "image": "https://seed-mix-image.spotifycdn.com/v6/img/nineties/26dSoYclwsYLMAKD3tpOr4/en/default"
+  },
+  {
+    "id": 5,
+    "title": "Chill mix",
+    "description": "Lou Hoang, Alan Walker, MIN and more",
+    "image": "https://seed-mix-image.spotifycdn.com/v6/img/chill/75Ki5hBCOpDtKGoFyTvLxP/en/default"
+  },
+  {
+    "id": 6,
+    "title": "Pop Mix",
+    "description": "Charlie Puth, Ed Sheeran and more",
+    "image": "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe"
+  },
+  {
+    "id": 7,
+    "title": "Lou Hoang Mix",
+    "description": "Orange, Andiez, Lynk Lee and more",
+    "image": "https://seeded-session-images.scdn.co/v1/img/artist/75Ki5hBCOpDtKGoFyTvLxP/en"
+  },
+  {
+    "id": 8,
+    "title": "2010s Mix",
+    "description": "SHAUN, iKON and more",
+    "image": "https://seed-mix-image.spotifycdn.com/v6/img/twenty_tens/72nLe76yBFSlP6VBzME358/en/default"
+  },
+  {
+    "id": 9,
+    "title": "Moody Mix",
+    "description": "BTS, Sasha Alex Sloan and more",
+    "image": "https://seed-mix-image.spotifycdn.com/v6/img/moody/3Nrfpe0tUJi4K4DXYWgMUX/en/default"
+  },
+  {
+    "id": 10,
+    "title": "Telugu Mix",
+    "description": "Thaman S, Indravathi Chauhan and more",
+    "image": "https://seed-mix-image.spotifycdn.com/v6/img/telugu/2FgHPfRprDaylrSRVf1UlN/en/default"
+  },
+  {
+    "id": 11,
+    "title": "Happy Mix",
+    "description": "BTS, Ed Sheeran, the Kid LAROI and more",
+    "image": "https://t.scdn.co/images/d0fb2ab104dc4846bdc56d72b0b0d785.jpeg"
+  },
+  {
+    "id": 12,
+    "title": "Discover Weekly",
+    "description": "Your weekly mixtape of fresh music",
+    "image": "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/kijYayqNWoDUa-ItP9AKQhS3UIahd4HUV3bWqPR7Fm5RcJzTCyBlw0jBP3KSVdXjM_XpaVFgJfwXU8th0ZsU48KRQIcMcYrn-bfHCa_KTfR_GuWkYx-qmQToew-LmyL4cUO-CUqRHrZ4H7iua6M8BCpsDZXZrb1ltRyjc4kESr0dkO3OqUnw7obbyUbyrGFbrTMRsl3xc980NyMjX598Xg==/NzE6OTI6NDFUMjAtOTAtMg==",
+    "album": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
+    "time": "6/5/2022"
+  },
+  {
+    "id": 13,
+    "title": "Release Radar",
+    "description": "Catch all the latest music from artists you follow",
+    "image": "https://newjams-images.scdn.co/image/ab67647800003f8a/dt/v3/release-radar/ab6761610000e5eb507cd4d6d349b4732deaf895/en",
+    "album": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
+    "time": "11/7/2021"
+  },
+  {
+    "id": 14,
+    "title": "Hot Hits",
+    "description": "Today's Top hits",
+    "image": "https://t.scdn.co/images/0a74d96e091a495bb09c0d83210910c3"
+  },
+  {
+    "id": 15,
+    "title": "All Out 10s",
+    "description": "Aenean sit amet justo. Morbi ut odio",
+    "image": "https://t.scdn.co/images/4c8b58ab42b54296ad5379514d36edac"
+  },
+  {
+    "id": 16,
+    "title": "Your Summer Rewind",
+    "description": "Nullam orci pede, venenatis non",
+    "image": "https://t.scdn.co/images/a2a24668f16c4e9680233a0d7d244a4b.jpeg"
+  },
+  {
+    "id": 17,
+    "title": "BlackPink",
+    "description": "Nullam sit amet turpis elementum ligula vehicula consequat",
+    "image": "https://i.scdn.co/image/ab6761610000f178848461f60f0f337dadbf396f"
+  },
+  {
+    "id": 18,
+    "title": "Duis bibendum.",
+    "description": "In quis justo.",
+    "image": "https://i.scdn.co/image/ab6761610000f17899b5a1b1b95a279176ded0e1"
+  },
+  {
+    "id": 19,
+    "title": "Morbi a ipsum.",
+    "description": "Nunc rhoncus dui vel sem. Sed sagittis.",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e02005799610338a5b57d865926ab67616d00001e0215a67578922d65121b12073dab67616d00001e0248f4704427189fe1957d2871ab67616d00001e02e099e697d0068b652fe6814e"
+  },
+  {
+    "id": 20,
+    "title": "Love Yourself",
+    "description": "Papper cut, Stay, Spring days and more",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e020dfdbae46bfeb56697ca35acab67616d00001e021fd0a8fc28b2a0a5d9cdc6c6ab67616d00001e0241e31d6ea1d493dd77933ee5ab67616d00001e0282c1b5cc2b62cae85ef7ffdb"
+  },
+  {
+    "id": 21,
+    "title": "Attention",
+    "description": "Charlie Puth Radio",
+    "image": "https://i.scdn.co/image/ab67616d00001e02106e27ed45e687dba9584179"
+  },
+  {
+    "id": 22,
+    "title": "Chill With Me",
+    "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
+    "image": "https://mosaic.scdn.co/640/ab67616d00001e021229aa0c03472971c35f93caab67616d00001e02862ec173cc4fb26292c7befbab67616d00001e02afb5e5bc125efd4405cc3061ab67616d00001e02f529cf1a5cd5ef2671f1781b"
+  },
+  {
+    "id": 23,
+    "title": "Cum sociis natoque ",
+    "description": "Integer aliquet, massa id lobortis convallis fdfdsf",
+    "image": "https://i.scdn.co/image/ab67616d00001e022a1643810ee63be0c0384648"
+  },
+  {
+    "id": 24,
+    "title": "Attention",
+    "description": "Oman Lay & Justin Bigger",
+    "image": "https://i.scdn.co/image/ab67616d00001e0248f131e4cabc3733c2de7fa9"
+  },
+  {
+    "id": 25,
+    "title": "Strongest",
+    "description": "Aliquam quis turpis eget elit sodales scelerisque",
+    "image": "https://i.scdn.co/image/ab67616d00001e025510097a6f4875a4ad7c9095"
+  },
+  {
+    "id": 26,
+    "title": "NCS",
+    "description": "Morbi non quam nec dui luctus rutrum",
+    "image": "https://i.scdn.co/image/ab67616d00001e0267e8f6296eb78d2c05ea4a00"
+  },
+  {
+    "id": 27,
+    "title": "Shape Of You",
+    "description": "SHAUN and more",
+    "image": "https://i.scdn.co/image/ab67616d00001e0291994452af66b672954b6eb4"
+  },
+  {
+    "id": 28,
+    "title": "M-TP",
+    "description": "Son Tung Radio",
+    "image": "https://i.scdn.co/image/ab67616d00001e02af31997b23b7e6e65de1816b"
+  },
+  {
+    "id": 29,
+    "title": "UNITI Acoustic",
+    "description": "Sapphire Alan X Walker",
+    "image": "https://i.scdn.co/image/ab67616d00001e02e0ffe17a3b3aa9626ef4e36a"
+  },
+  {
+    "id": 30,
+    "title": "Cô Ấy Nói",
+    "description": "Chẳng một ai tuyệt đối",
+    "image": "https://i.scdn.co/image/ab67656300005f1f6b1278467926b05bd6c23bf5"
+  },
+  {
+    "id": 31,
+    "title": "Love Life",
+    "description": "Matthew Hussey and more",
+    "image": "https://i.scdn.co/image/ab67656300005f1f6ded8dab7e6c6dbd5b2aaf4f"
+  },
+  {
+    "id": 32,
+    "title": "3107 Love",
+    "description": "Ánh sao và Bầu Trời",
+    "image": "https://i.scdn.co/image/ab67656300005f1fd8a209f458379ce7b722362f"
+  },
+  {
+    "id": 33,
+    "title": "Pellentesque eget",
+    "description": "Cum sociis natoque penatibus",
+    "image": "https://i.scdn.co/image/ab67706c0000da8458cd64a2c9cfdbf0b49a6967"
+  },
+  {
+    "id": 34,
+    "title": "All The Feels",
+    "description": "Aliquam erat volutpat",
+    "image": "https://i.scdn.co/image/ab67706f0000000213601d4833623a4d6b328e38"
+  },
+  {
+    "id": 35,
+    "title": "Nulla tempus",
+    "description": "Maecenas leo odio volutpat dui",
+    "image": "https://i.scdn.co/image/ab67706f0000000230949dd0cc6b7b1c262f0260"
+  },
+  {
+    "id": 36,
+    "title": "Vivamus metus arcu",
+    "description": "Sed accumsan felis",
+    "image": "https://i.scdn.co/image/ab67706f000000023c5a4aaf5df054a9beeb3d82"
+  },
+  {
+    "id": 37,
+    "title": "K-Pop Now",
+    "description": "Phasellus sit amet erat",
+    "image": "https://i.scdn.co/image/ab67706f0000000241916b40519d8ab825d179dc"
+  },
+  {
+    "id": 38,
+    "title": "K-Club Party",
+    "description": "Praesent lectus phasellus",
+    "image": "https://i.scdn.co/image/ab67706f0000000243fdacfabd95078b0302ea84"
+  },
+  {
+    "id": 39,
+    "title": "J-Hop Hits",
+    "description": "In eleifend quam a odio",
+    "image": "https://i.scdn.co/image/ab67706f00000002464ac47b8dd91ab32b2e2972"
+  },
+  {
+    "id": 40,
+    "title": "Soundtracks",
+    "description": "Best of Korean Soundtracks",
+    "image": "https://i.scdn.co/image/ab67706f0000000248af925fcc4cf111f8b1fc76"
+  },
+  {
+    "id": 41,
+    "title": "In eleifend ",
+    "description": "Cras pellentesque volutpat dui",
+    "image": "https://i.scdn.co/image/ab67706f000000024a41e4518102b0532f17fc70"
+  },
+  {
+    "id": 42,
+    "title": "Pop Sauce",
+    "description": "Vivamus in felis eu sapien",
+    "image": "https://i.scdn.co/image/ab67706f000000024a56dc372e58a6fac82c64a9"
+  },
+  {
+    "id": 43,
+    "title": "Aenean sit amet justo",
+    "description": "Aenean auctor gravida sem",
+    "image": "https://i.scdn.co/image/ab67706f000000024cbf5a1b1454010b839824d1"
+  },
+  {
+    "id": 44,
+    "title": "Hallyu Boy Bands",
+    "description": "Duis bibendum, felis sed interdum",
+    "image": "https://i.scdn.co/image/ab67706f000000024f826b63916af454d8d71a56"
+  },
+  {
+    "id": 45,
+    "title": "Dinner music",
+    "description": "Donec ut mauris eget massa",
+    "image": "https://i.scdn.co/image/ab67706f000000025a051b0271d3e98edfdc4c09"
+  },
+  {
+    "id": 46,
+    "title": "Mauris sit",
+    "description": "Sed accumsan felis vitae nisi",
+    "image": "https://i.scdn.co/image/ab67706f000000026abff8de68c75470ea8f0665"
+  },
+  {
+    "id": 47,
+    "title": "Duis aliquam convallis",
+    "description": "Proin leo odio, porttitor id",
+    "image": "https://i.scdn.co/image/ab67706f000000026e1034ebd7b7c86546c6acca"
+  },
+  {
+    "id": 48,
+    "title": "Pop Right now",
+    "description": "In hac habitasse platea dictumst",
+    "image": "https://i.scdn.co/image/ab67706f0000000271d4be11b38e047fe00745bc"
+  },
+  {
+    "id": 49,
+    "title": "New Punk Tracks",
+    "description": "Morbi non quam nec dui luctus",
+    "image": "https://i.scdn.co/image/ab67706f0000000275251d7d488b0fd69e4c50bd"
+  },
+  {
+    "id": 50,
+    "title": "Aliquam quis turpis",
+    "description": "Nullam orci pede, venenatis non",
+    "image": "https://i.scdn.co/image/ab67706f0000000279a8a69606ac261a5e22a984"
+  },
+  {
+    "id": 51,
+    "title": "Donec ut mauris",
+    "description": "Aenean sit amet justo.",
+    "image": "https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112"
+  },
+  {
+    "id": 52,
+    "title": "Curabitur convallis",
+    "description": "Proin interdum mauris non ligula",
+    "image": "https://i.scdn.co/image/ab67706f000000028ed1a5002b96c2ea882541b2"
+  },
+  {
+    "id": 53,
+    "title": "Vestibulum ante",
+    "description": "In sagittis dui vel nisl",
+    "image": "https://i.scdn.co/image/ab67706f00000002978b9f4a4f40b430fd0d837e"
+  },
+  {
+    "id": 54,
+    "title": "Donec semper",
+    "description": "Integer pede justo, lacinia eget",
+    "image": "https://i.scdn.co/image/ab67706f0000000299b1ee46c4d679d0c37e6b10"
+  },
+  {
+    "id": 55,
+    "title": "Maecenas pulvinar",
+    "description": "Pellentesque eget nunc",
+    "image": "https://i.scdn.co/image/ab67706f000000029bb6af539d072de34548d15c"
+  },
+  {
+    "id": 56,
+    "title": "In tempor, turpis nec",
+    "description": "Sed ante. Vivamus tortor",
+    "image": "https://i.scdn.co/image/ab67706f00000002aa93fe4e8c2d24fc62556cba"
+  },
+  {
+    "id": 57,
+    "title": "Morbi quis tortor",
+    "description": "Suspendisse potenti",
+    "image": "https://i.scdn.co/image/ab67706f00000002b70e0223f544b1faa2e95ed0"
+  },
+  {
+    "id": 58,
+    "title": "Morbi vestibulum",
+    "description": "Nunc purus. Phasellus in felis",
+    "image": "https://i.scdn.co/image/ab67706f00000002d72ef75e14ca6f60ea2364c2"
+  },
+  {
+    "id": 59,
+    "title": "Deep Focus",
+    "description": "Nulla ut erat id mauris",
+    "image": "https://i.scdn.co/image/ab67706f00000002e4eadd417a05b2546e866934"
+  },
+  {
+    "id": 60,
+    "title": "Phuong Ly",
+    "description": "V-Pop Không Thể Thiếu",
+    "image": "https://i.scdn.co/image/ab67706f00000002e62c54dd6ab2db86738f954d"
+  },
+  {
+    "id": 61,
+    "title": "Integer non velit",
+    "description": "Maecenas ut massa quis",
+    "image": "https://i.scdn.co/image/ab67706f00000002ec9d60059aa215a7ba364695"
+  },
+  {
+    "id": 62,
+    "title": "US-UK",
+    "description": "Songs to Sing in the Car",
+    "image": "https://i.scdn.co/image/ab67706f00000002ffa215be1a4c64e3cbf59d1e"
+  },
+  {
+    "id": 63,
+    "title": "Cras pellentesque",
+    "description": "Ut tellus Nulla ut erat",
+    "image": "https://i.scdn.co/image/ab6775700000ee85566f8eefeba8189f843c9343"
+  },
+  {
+    "id": 64,
+    "title": "Integer a nibh",
+    "description": "Nunc nisl. Duis bibendum",
+    "image": " https://i.scdn.co/image/ab67616d00001e02ad5d0332d6438843cd287992"
+  },
+  {
+    "id": 65,
+    "title": "Mặt trời của em",
+    "description": "Phương Ly",
+    "image": "https://i.scdn.co/image/ab67616d00001e02a1952d7d4dcaee5631c88ba2"
+  }
+]

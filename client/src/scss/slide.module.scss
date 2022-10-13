@@ -1,0 +1,17 @@
+.container {
+  height: 11.5rem;
+  width: 12rem;
+  margin: 0 0 0 1rem;
+  // position: relative;
+  img {
+    width: 12rem;
+    height: 11.5rem;
+    border-radius: 5px;
+  }
+  button {
+    margin: 0 -1.3rem 0 -1.3rem;
+  }
+  svg {
+    width: 1rem;
+  }
+}
