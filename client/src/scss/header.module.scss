@@ -1,0 +1,77 @@
+.logo {
+  width: 70px;
+}
+@media (min-width: 740px) and (max-width: 1190px) {
+  .logo {
+    display: none;
+  }
+  .iconTitle {
+    display: block;
+    font-size: 2rem;
+    right: 10px;
+    cursor: pointer;
+  }
+  .iconTitle:hover {
+    color: rgba(7, 189, 89, 0.837);
+  }
+}
+@media (min-width: 1190px) {
+  .iconTitle {
+    display: none;
+  }
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 320px;
+  background: linear-gradient(transparent, #656565);
+  background-color: rgb(244, 242, 242);
+  opacity: 1;
+  transition: transform linear 0.5s, opacity linear 0.5s;
+  .iconClose {
+    color: red;
+    margin: 0 0 0 18rem;
+  }
+  .iconClose:hover {
+    background-color: red;
+    color: white;
+  }
+  ul {
+    margin-top: 2rem;
+    .navTablet {
+      div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // justify-content: center;
+        gap: 2rem;
+        line-height: 3rem;
+        .icon {
+          font-size: 25px;
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
+  .navOverlay {
+    position: fixed;
+    top: 0;
+    left: 320px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    // display: none;
+    animation: fadeIn linear 0.5s;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

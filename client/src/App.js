@@ -16,6 +16,8 @@ import {
   Musics,
   Premium,
 } from "./components";
+import Profile from "./components/Profile";
+import LikeSongs from "./components/LikeSongs";
 import NotFound from "./components/NotFound";
 
 function App() {
@@ -71,6 +73,8 @@ function App() {
             <Route path="/ContactUs" element={<ContactUs />} />
             <Route path="/login" element={<Login setAuth={setAuth} />} />
             <Route path="/signup" element={<SignUp />} />
+            <Route path="/Profile" element={<Profile />} />
+            <Route path="/LikeSongs" element={<LikeSongs />} />
             <Route path="/dashboard/*" element={<Dashboard />} />
           </Routes>
 

@@ -9,3 +9,4 @@ export { default as GooglePlay } from "./googlePlay.png";
 export { default as AppStore } from "./appStore.png";
 export { default as Background } from "./background.jpg";
 export { default as Background2 } from "./background2.jpg";
+export { default as ImgProfile } from "./imgProfile.png";

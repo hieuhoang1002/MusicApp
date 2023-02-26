@@ -8,6 +8,13 @@ import { motion } from "framer-motion";
 import { isActiveStyles, isNotActiveStyles } from "../utils/styles";
 import { useState } from "react";
 import { useUserContext } from "../context/UserContext";
+import styles from "../scss/header.module.scss";
+import { IoAppsSharp } from "react-icons/io5";
+import TitleHeader from "./TitleHeader";
+
+import { AiOutlineClose, AiOutlineHome } from "react-icons/ai";
+import { BsMusicNoteList } from "react-icons/bs";
+import { IoDiamondOutline, IoPeopleOutline } from "react-icons/io5";
 
 const Header = () => {
   const { createUser } = useUserContext();
@@ -17,6 +24,8 @@ const Header = () => {
   const [isMenu, setIsMenu] = useState(false);
 
   const navigate = useNavigate();
+
+  const [title, setTitle] = useState(false);
 
   const logOut = () => {
     // const firebaseAuth = getAuth(app);
@@ -28,53 +37,85 @@ const Header = () => {
       .catch((e) => console.log(e));
     navigate("/login", { replace: true });
   };
+  const handleTitle = () => {
+    setTitle(!title);
+  };
   return (
-    <header className="flex top-0 left-0 right-0 items-center w-full p-4 md:py-2 md:px-6 bg-headerColor">
+    <header className="flex top-0 left-0 right-0 items-center w-full p-4 md:py-2 md:px-6 bg-headerColor h-24">
       <NavLink to={"/Home"}>
-        <img src={Logo} alt="Logo" className="w-16" />
+        <img src={Logo} alt="Logo" className={styles.logo} />
       </NavLink>
-      <ul className="flex items-center justify-center ml-7">
-        <li className="mx-5 text-lg">
-          <NavLink
-            to={"/Home"}
-            className={({ isActive }) =>
-              isActive ? isActiveStyles : isNotActiveStyles
-            }
-          >
-            Home
-          </NavLink>
-        </li>
-        <li className="mx-5 text-lg">
-          <NavLink
-            to={"/Musics"}
-            className={({ isActive }) =>
-              isActive ? isActiveStyles : isNotActiveStyles
-            }
-          >
-            Musics
-          </NavLink>
-        </li>
-        <li className="mx-5 text-lg">
-          <NavLink
-            to={"/Premium"}
-            className={({ isActive }) =>
-              isActive ? isActiveStyles : isNotActiveStyles
-            }
-          >
-            Premium
-          </NavLink>
-        </li>
-        <li className="mx-5 text-lg">
-          <NavLink
-            to={"/ContactUs"}
-            className={({ isActive }) =>
-              isActive ? isActiveStyles : isNotActiveStyles
-            }
-          >
-            Contact Us
-          </NavLink>
-        </li>
-      </ul>
+      <div className={styles.iconTitle}>
+        <IoAppsSharp onClick={handleTitle} />
+        {title && (
+          <div className={styles.nav}>
+            <AiOutlineClose
+              className={styles.iconClose}
+              onClick={handleTitle}
+            />
+            <ul>
+              <li className={styles.navTablet}>
+                <NavLink
+                  to={"/Home"}
+                  className={({ isActive }) =>
+                    isActive ? isActiveStyles : isNotActiveStyles
+                  }
+                >
+                  <div>
+                    <AiOutlineHome className={styles.icon} />
+                    <span>Home</span>
+                  </div>
+                </NavLink>
+              </li>
+              <li className={styles.navTablet}>
+                <NavLink
+                  to={"/Musics"}
+                  className={({ isActive }) =>
+                    isActive ? isActiveStyles : isNotActiveStyles
+                  }
+                >
+                  <div>
+                    {" "}
+                    <BsMusicNoteList className={styles.icon} />
+                    <span> Music</span>
+                  </div>
+                </NavLink>
+              </li>
+              <li className={styles.navTablet}>
+                <NavLink
+                  to={"/Premium"}
+                  className={({ isActive }) =>
+                    isActive ? isActiveStyles : isNotActiveStyles
+                  }
+                >
+                  <div>
+                    {" "}
+                    <IoDiamondOutline className={styles.icon} />
+                    <span>Premium</span>
+                  </div>
+                </NavLink>
+              </li>
+              <li className={styles.navTablet}>
+                <NavLink
+                  to={"/ContactUs"}
+                  className={({ isActive }) =>
+                    isActive ? isActiveStyles : isNotActiveStyles
+                  }
+                >
+                  <div>
+                    {" "}
+                    <IoPeopleOutline className={styles.icon} />
+                    <span> Contact Us</span>
+                  </div>
+                </NavLink>
+              </li>
+            </ul>
+            <div className={styles.navOverlay}></div>
+          </div>
+        )}
+      </div>
+
+      <TitleHeader />
 
       <div
         onMouseEnter={() => setIsMenu(true)}
@@ -107,14 +148,17 @@ const Header = () => {
             exit={{ opacity: 0, y: 50 }}
             className="absolute z-10 flex flex-col top-12 p-3 right-0 w-275 gap-2 bg-card shadow-lg rounded-lg backdrop-blur-sm"
           >
-            <NavLink to={"/userProfile"}>
+            <NavLink to={"/Profile"}>
               <p className="text-base hover:font-semibold duration-150 transition-all ease-in-out">
                 Profile
               </p>
             </NavLink>
-            <p className="text-base hover:font-semibold duration-150 transition-all ease-in-out">
-              My Favourites
-            </p>
+
+            <NavLink to={"/LikeSongs"}>
+              <p className="text-base hover:font-semibold duration-150 transition-all ease-in-out">
+                Like Songs
+              </p>
+            </NavLink>
 
             <hr />
 

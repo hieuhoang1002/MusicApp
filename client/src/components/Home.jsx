@@ -45,6 +45,7 @@ const Home = () => {
 
       {/* //================== */}
       <div className={styles.containers}>
+        <div className={styles.xxx}></div>
         <div className={styles.search_bar}>
           <FiSearch className={styles.icon1} />
           <input
@@ -85,6 +86,7 @@ const Home = () => {
                 } else if (
                   val.title
                     .toLocaleLowerCase()
+                    .trim()
                     .includes(searchTerm.toLocaleLowerCase())
                 ) {
                   return val;

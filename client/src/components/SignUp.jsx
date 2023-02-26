@@ -166,39 +166,41 @@ const SignUp = () => {
             required={true}
           />
         </div> */}
-          <div className={styles.date_of_birth_container}>
+          {/* <div className={styles.date_of_birth_container}>
+          
             <p className={styles.text_birthday}>What's your date of birth?</p>
+            
             <div className={styles.date_of_birth}>
               <div className={styles.date}>
-                {/* <TextField
+                <TextField
                 label="Date"
                 placeholder="DD"
                 name="date"
                 value={data.date}
                 required={true}
-              /> */}
+              />
               </div>
               <div className={styles.month}>
-                {/* <TextField
+                <TextField
                 name="Month"
                 label="Month"
                 placeholder="Months"
                 options={months}
                 value={data.month}
                 required={true}
-              /> */}
+              />
               </div>
               <div className={styles.year}>
-                {/* <TextField
+                <TextField
                 label="Year"
                 placeholder="YYYY"
                 name="year"
                 value={data.year}
                 required={true}
-              /> */}
+              />
               </div>
             </div>
-          </div>
+          </div> */}
           <div className={styles.input_container}>
             {/* <Radio
             className={styles.input_text}
